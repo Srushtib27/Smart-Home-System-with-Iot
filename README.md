@@ -46,6 +46,11 @@ This project aims to build a **Smart Password-Based Door Lock System** using Ard
 | Breadboard/PCB | For component mounting          |
 | Power Supply   | Battery or USB-based power      |
 
+![image](https://github.com/user-attachments/assets/e8656379-fd04-483b-bcef-53648066806a)
+![image](https://github.com/user-attachments/assets/49b4130e-d626-49ca-9119-1e0cacbecbb8)
+![image](https://github.com/user-attachments/assets/ac04c280-290f-4f0e-99dc-e34beec3be79)
+![image](https://github.com/user-attachments/assets/2ffd9179-5117-4625-bcb5-0fc87be48383)
+
 ---
 
 ### 🧠 How It Works
@@ -61,7 +66,11 @@ This project aims to build a **Smart Password-Based Door Lock System** using Ard
 > The password can be changed directly from the Arduino code.
 
 ---
+### Circuit Diagram
+![image](https://github.com/user-attachments/assets/0bd4a04a-55c9-4793-9af7-24ca304a8288)
 
+
+---
 ### 🛠 Installation & Setup
 
 1. **Circuit Wiring**:
@@ -86,7 +95,11 @@ This project aims to build a **Smart Password-Based Door Lock System** using Ard
 * The system successfully restricts access until the correct password is entered.
 * Compact and scalable setup suitable for home, lockers, or offices.
 
+![image](https://github.com/user-attachments/assets/caeb0efb-bad5-4307-8b5d-48ab0d7fc4d3)
+![image](https://github.com/user-attachments/assets/2ebecc8b-8a91-4f44-89bf-843c31c325a5)
 
+
+---
 ### 🔮 Future Enhancements
 
 * 🔑 **Biometric Integration** (Fingerprint/Retina)
