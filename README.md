@@ -14,8 +14,6 @@ An affordable and efficient IoT-based door security system built using **Arduino
 * [Installation & Setup](#installation--setup)
 * [Results](#results)
 * [Future Enhancements](#future-enhancements)
-* [Contributors](#contributors)
-* [References](#references)
 
 ---
 
