@@ -87,11 +87,6 @@ This project aims to build a **Smart Password-Based Door Lock System** using Ard
 
 * The system successfully restricts access until the correct password is entered.
 * Compact and scalable setup suitable for home, lockers, or offices.
-* Below is an example project snapshot:
-
-```
-![image](https://github.com/user-attachments/assets/6e70f5d2-3c02-49d2-9b8d-86c42d49ef7b)
-![image](https://github.com/user-attachments/assets/1b5cc94d-eace-4f89-915e-30957e8283d1)
 
 ```
 
