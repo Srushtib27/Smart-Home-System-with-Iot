@@ -1,9 +1,110 @@
-# Smart-Home-System-with-Iot
- A home is where we always need safety and security. And locks are considered the foundation of home security. Traditional locks have keys, which comes with a few drawbacks. Keys can get lost easily, or someone we do not want can find them. In such cases, our traditional locks compromise security. People are moving towards digital smart door lock systems to make their homes more secure.This IoT Project Can Be Very Helpful ForSmart home security
+## 🔐 Smart Password-Based Door Lock System using Arduino
+
+An affordable and efficient IoT-based door security system built using **Arduino UNO**, **Keypad**, and a **Servo Motor**, designed as a project for the academic year 2024–2025 and NAAC Project Presentations.
+
+---
+
+### 📌 Table of Contents
+
+* [Project Overview](#project-overview)
+* [Features](#features)
+* [Components Used](#components-used)
+* [Circuit Diagram](#circuit-diagram)
+* [How It Works](#how-it-works)
+* [Installation & Setup](#installation--setup)
+* [Results](#results)
+* [Future Enhancements](#future-enhancements)
+* [Contributors](#contributors)
+* [References](#references)
+
+---
+
+### 📖 Project Overview
+
+This project aims to build a **Smart Password-Based Door Lock System** using Arduino that enhances security using a password mechanism. It eliminates the need for physical keys and offers a cost-effective alternative to expensive biometric systems.
+
+> The system allows door access only when the correct password is entered using a 4x4 keypad. A servo motor is used to actuate the lock mechanism. The system is powered by an Arduino UNO which acts as the brain of the setup.
+
+---
+
+### ✨ Features
+
+* 🔒 Secure password-based access
+* ⚙️ Easy setup and customization
+* 💰 Cost-effective and power-efficient
+* 🔁 Password reset and auto-lock features
+* 🔧 Modular design (easy to upgrade)
+
+---
+
+### 🧩 Components Used
+
+| Component      | Description                     |
+| -------------- | ------------------------------- |
+| Arduino UNO    | Microcontroller board           |
+| 4x4 Keypad     | Input module for password entry |
+| Servo Motor    | Actuates lock (rotation-based)  |
+| Jumper Wires   | For circuit connections         |
+| Breadboard/PCB | For component mounting          |
+| Power Supply   | Battery or USB-based power      |
+
+---
+
+### 🧠 How It Works
+
+1. **Password Setup**: A default password is hardcoded into the Arduino sketch.
+2. **User Input**: User enters the password using the keypad.
+3. **Password Validation**:
+
+   * ✅ If correct: The servo motor rotates 90° to unlock.
+   * ❌ If incorrect: The door remains locked.
+4. **Auto-lock**: After a delay or a reset input, the servo returns to its initial (locked) position.
+
+> The password can be changed directly from the Arduino code.
+
+---
+
+### 🛠 Installation & Setup
+
+1. **Circuit Wiring**:
+
+   * Connect 4x4 keypad to digital pins of Arduino.
+   * Connect servo motor to a PWM pin (e.g., D9).
+   * Use jumper wires for reliable connections.
+
+2. **Upload Code**:
+
+   * Use the Arduino IDE to upload the code.
+   * Ensure the correct COM port and board are selected.
+
+3. **Power On**:
+
+   * Provide power via USB or external battery pack.
+
+---
+
+### 🖼️ Results
+
+* The system successfully restricts access until the correct password is entered.
+* Compact and scalable setup suitable for home, lockers, or offices.
+* Below is an example project snapshot:
+
+```
+![image](https://github.com/user-attachments/assets/6e70f5d2-3c02-49d2-9b8d-86c42d49ef7b)
+![image](https://github.com/user-attachments/assets/1b5cc94d-eace-4f89-915e-30957e8283d1)
+
+```
 
 
-Components :
-1) Arduino Uno           2) led        3) Bread Board           4)Jumper wires     5) Keyboard           6) Servo motor
- Software:
-1)Arduino Uno IDE
-2) Processing 4
+### 🔮 Future Enhancements
+
+* 🔑 **Biometric Integration** (Fingerprint/Retina)
+* 📱 **Bluetooth/Wi-Fi based remote control**
+* 💬 **LCD/LED status display**
+* 🧠 **AI & ML for access pattern detection**
+* 🔒 **Multi-factor authentication**
+* 🔋 **Solar/UPS-based power supply**
+* 🗣️ **Voice recognition integration**
+* 🌐 **IoT Smart Home ecosystem compatibility**
+
+---
